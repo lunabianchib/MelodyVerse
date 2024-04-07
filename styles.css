@@ -3,6 +3,10 @@ body {
     margin: 0 auto;
     padding: 20px;
     max-width: 800px;
+    -webkit-user-select: auto; /* Safari */
+    user-select: auto;         /* Otros navegadores */
+    width: -moz-fit-content; /* Firefox */
+    width: fit-content;      /* Chrome, Edge, Safari */
 }
 h1 {
     text-align: center;
